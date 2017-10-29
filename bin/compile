@@ -2,8 +2,6 @@
 
 echo "Installing youtube-dl in "$1"/"
 
-mkdir -p foo $1/bin
-
 curl -L https://yt-dl.org/downloads/latest/youtube-dl -o $1/youtube-dl
 
 chmod a+rx $1/youtube-dl
